@@ -1,0 +1,21 @@
+{% extends 'main/layout.html' %}}
+
+{% load static %}
+
+{% block title %}О нас{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>О нас</h1>
+        
+        <div class="isakov">
+            <img class="photo1" src="{% static 'main/images/logo.png' %}" alt="dima">
+            <p>Тут что-то про меня</p>
+        </div>
+
+        <div class="karev">
+            <img class="photo2" src="{% static 'main/images/logo1.png' %}" alt="vlad">
+            <p>Тут что-то про меня</p>
+        </div>
+    </div>
+{% endblock %}

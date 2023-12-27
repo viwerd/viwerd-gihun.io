@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#bg{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+aside {
+    float: left;
+    background: #181818;
+    width: 15%;
+    padding: 1%;
+    height: 100%;
+    color: #fff;
+    border-right: 2px solid #ebbb60;
+}
+
+aside img {
+    width: 77px;
+    float: left;
+    top: -4px;
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-weight: bold;
+    position: relative;
+    top: 4px;
+    left: 8px;
+}
+
+aside h3 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+aside ul {list-style: none}
+
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    margin-left: -10px;
+    transition: transform .3s ease;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #ebbb60;
+    transform: scale(1.1);
+}
+
+main {
+
+}
+
+main .features {
+    float: left;
+    color: #fff;
+    margin-top: 50px;
+    text-align: center;
+    width: 70%;
+}
+
+main .features h1 {font-size: 60px;}
+
+main .photo1{
+    float: left;
+    width: 1000px;
+
+}
